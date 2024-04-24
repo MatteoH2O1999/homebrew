@@ -1,0 +1,41 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WateryHomebrews",
+				"abbreviation": "WHB",
+				"full": "Watery Homebrews",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Iron War Fishing Rod",
+			"source": "WateryHomebrews",
+			"page": 30,
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This war fishing rod is made of iron, which allows better control and range.",
+				"The range of any spell you cast using this war fishing rod is increased by 10 ft.",
+				"You have a +1 on every attack roll made with this war fishing rod.",
+				"Every spell you cast with this war fishing rod has its DC increased by 1."
+			]
+		},
+		{
+			"name": "Boots of Feral Leaping",
+			"source": "WateryHomebrews",
+			"page": 30,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"The boots are made from thick brown hide and appear to be suited for cold weather.",
+				"If the wearer of the boots passes a DC 16 {@skill Acrobatics}(Dexterity) check, they can jump either 15 ft. vertically, or 20 ft. horizontally, as a bonus action.",
+				"However, if they fail the check, they fall {@condition prone}."
+			]
+		}
+	]
+}
