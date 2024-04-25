@@ -36,6 +36,219 @@
 				"If the wearer of the boots passes a DC 16 {@skill Acrobatics}(Dexterity) check, they can jump either 15 ft. vertically, or 20 ft. horizontally, as a bonus action.",
 				"However, if they fail the check, they fall {@condition prone}."
 			]
+		},
+		{
+			"name": "Wand of Cure Wounds",
+			"source": "WateryHomebrews",
+			"page": 125,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d6 + 1}",
+			"charges": 12,
+			"entries": [
+				"This wand has 12 charges.",
+				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Cure Wounds} spell from it (using +0 as your spellcasting ability modifier if your class does not have one).",
+				"For 1 charge, you cast the 1st-level version of the spell.",
+				"You can increase the spell slot level by one for each additional charge you expend.",
+				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn.",
+				"If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
+			],
+			"attachedSpells": [
+				"cure wounds"
+			]
+		},
+		{
+			"name": "Wand of Lesser Restoration",
+			"source": "WateryHomebrews",
+			"page": 125,
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d3}",
+			"charges": 4,
+			"entries": [
+				"This wand has 4 charges.",
+				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Lesser Restoration} spell from it.",
+				"For 1 charge, you cast the 2nd-level version of the spell.",
+				"You can increase the spell slot level by one for each additional charge you expend.",
+				"The wand regains {@dice 1d3} expended charges daily at dawn.",
+				"If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
+			],
+			"attachedSpells": [
+				"lesser restoration"
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Freezing Hands",
+			"source": "WateryHomebrews",
+			"page": 53,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As you hold your hands with thumbs touching and fingers spread, a thin sheet of ice shoots forth from your outstretched fingertips.",
+				"Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes {@damage 3d6} cold damage on a failed save, or half as much damage on a successful one.",
+				"The cold freezes nonmagical liquids in the area that aren't being worn or carried."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Skeleton Ice Wizard",
+			"source": "WateryHomebrews",
+			"page": 259,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 15,
+			"int": 16,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"unerstands all languages it spoke in life but can't speak"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"The skeleton ice wizard is an 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The skeleton ice wizard has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell ray of frost}",
+								"{@spell frostbite|XGE}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell freezing hands|WateryHomebrews}",
+								"{@spell mage armor}",
+								"{@spell shield}",
+								"{@spell ice knife|XGE}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell melf's acid arrow}",
+								"{@spell rime's binding ice|FTD}",
+								"{@spell snilloc's snowball swarm|XGE}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"action": [
+				{
+					"name": "Scepter",
+					"entries": [
+						"{@atk ms} +4 to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			]
 		}
 	]
 }
