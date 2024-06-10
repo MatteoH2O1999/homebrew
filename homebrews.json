@@ -16,7 +16,7 @@
 			"name": "Iron War Fishing Rod",
 			"source": "WateryHomebrews",
 			"page": 30,
-			"rarity": "legendary",
+			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
 				"This war fishing rod is made of iron, which allows better control and range.",
@@ -33,7 +33,7 @@
 			"wondrous": true,
 			"entries": [
 				"The boots are made from thick brown hide and appear to be suited for cold weather.",
-				"If the wearer of the boots passes a DC 16 {@skill Acrobatics}(Dexterity) check, they can jump either 15 ft. vertically, or 20 ft. horizontally, as a bonus action.",
+				"If the wearer of the boots passes a DC 16 Dexterity ({@skill Acrobatics}) check, they can jump either 15 ft. vertically, or 20 ft. horizontally, as a bonus action.",
 				"However, if they fail the check, they fall {@condition prone}."
 			]
 		},
