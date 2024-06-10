@@ -5,11 +5,13 @@
 				"json": "WateryHomebrews",
 				"abbreviation": "WHB",
 				"full": "Watery Homebrews",
-				"url": "",
+				"version": "1.0",
 				"authors": [],
 				"convertedBy": []
 			}
-		]
+		],
+		"dateAdded": 1718055353,
+		"dateLastModified": 1718055405
 	},
 	"item": [
 		{
