@@ -11,7 +11,7 @@
 			}
 		],
 		"dateAdded": 1718055353,
-		"dateLastModified": 1718055405
+		"dateLastModified": 1718150595
 	},
 	"item": [
 		{
@@ -80,6 +80,101 @@
 			"attachedSpells": [
 				"lesser restoration"
 			]
+		}
+	],
+	"magicvariant": [
+		{
+			"name": "Slumbering Dragon's Gaze Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Slumbering Dragon's Gaze ",
+				"source": "WateryHomebrews",
+				"page": 35,
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"entries": [
+					"This armor is decorated with dragon heads, claws, wings, scales, or Draconic letters.",
+					"You have resistance to damage of the type dealt by the dragon's breath weapon while wearing this armor.",
+					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 1d6} damage of the type dealt by the dragon's breath weapon."
+				]
+			}
+		},
+		{
+			"name": "Stirring Dragon's Gaze Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Stirring Dragon's Gaze ",
+				"source": "WateryHomebrews",
+				"page": 35,
+				"rarity": "rare",
+				"reqAttune": true,
+				"entries": [
+					"This armor is decorated with dragon heads, claws, wings, scales, or Draconic letters.",
+					"You have resistance to damage of the type dealt by the dragon's breath weapon while wearing this armor.",
+					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 1d8} damage of the type dealt by the dragon's breath weapon.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor."
+				],
+				"bonusAc": "+1"
+			}
+		},
+		{
+			"name": "Wakened Dragon's Gaze Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Wakened Dragon's Gaze ",
+				"source": "WateryHomebrews",
+				"page": 35,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"entries": [
+					"This armor is decorated with dragon heads, claws, wings, scales, or Draconic letters.",
+					"You have immunity to damage of the type dealt by the dragon's breath weapon while wearing this armor.",
+					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 1d10} damage of the type dealt by the dragon's breath weapon.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"You have resistance to nonmagical damage while wearing this armor."
+				],
+				"bonusAc": "+2"
+			}
+		},
+		{
+			"name": "Ascendant Dragon's Gaze Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Ascendant Dragon's Gaze ",
+				"source": "WateryHomebrews",
+				"page": 35,
+				"rarity": "legendary",
+				"reqAttune": true,
+				"entries": [
+					"This armor is decorated with dragon heads, claws, wings, scales, or Draconic letters.",
+					"You have immunity to damage of the type dealt by the dragon's breath weapon while wearing this armor.",
+					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 2d6} damage of the type dealt by the dragon's breath weapon.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"You have resistance to nonmagical damage while wearing this armor.",
+					"When you are reduced to 0 hit points, you can choose to have a blast of elemental energy surround you. You regain 1 hit point and are lifted to your feet. Each creature of your choice within 10 feet of you takes {@dice 2d6} damage of the type dealt by the dragon's breath weapon. This property of the armor can't be used again until you finish a {@quickref resting|PHB|2|0|long rest}."
+				],
+				"bonusAc": "+3"
+			}
 		}
 	],
 	"spell": [
