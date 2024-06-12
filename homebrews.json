@@ -11,7 +11,7 @@
 			}
 		],
 		"dateAdded": 1718055353,
-		"dateLastModified": 1718150595
+		"dateLastModified": 1718151151
 	},
 	"item": [
 		{
@@ -23,8 +23,7 @@
 			"entries": [
 				"This war fishing rod is made of iron, which allows better control and range.",
 				"The range of any spell you cast using this war fishing rod is increased by 10 ft.",
-				"You have a +1 on every attack roll made with this war fishing rod.",
-				"Every spell you cast with this war fishing rod has its DC increased by 1."
+				"You have a +1 on every attack roll made with this war fishing rod and every spell you cast with this war fishing rod has its DC increased by 1."
 			]
 		},
 		{
@@ -35,8 +34,7 @@
 			"wondrous": true,
 			"entries": [
 				"The boots are made from thick brown hide and appear to be suited for cold weather.",
-				"If the wearer of the boots passes a DC 16 Dexterity ({@skill Acrobatics}) check, they can jump either 15 ft. vertically, or 20 ft. horizontally, as a bonus action.",
-				"However, if they fail the check, they fall {@condition prone}."
+				"If the wearer of the boots passes a DC 16 Dexterity ({@skill Acrobatics}) check, they can jump either 15 ft. vertically, or 20 ft. horizontally, as a bonus action. However, if they fail the check, they fall {@condition prone}."
 			]
 		},
 		{
@@ -49,12 +47,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 12,
 			"entries": [
-				"This wand has 12 charges.",
-				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Cure Wounds} spell from it (using +0 as your spellcasting ability modifier if your class does not have one).",
-				"For 1 charge, you cast the 1st-level version of the spell.",
-				"You can increase the spell slot level by one for each additional charge you expend.",
-				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn.",
-				"If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
+				"This wand has 12 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Cure Wounds} spell from it (using +0 as your spellcasting ability modifier if your class does not have one). For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
+				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
 				"cure wounds"
@@ -70,12 +64,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 4,
 			"entries": [
-				"This wand has 4 charges.",
-				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Lesser Restoration} spell from it.",
-				"For 1 charge, you cast the 2nd-level version of the spell.",
-				"You can increase the spell slot level by one for each additional charge you expend.",
-				"The wand regains {@dice 1d3} expended charges daily at dawn.",
-				"If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
+				"This wand has 4 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell Lesser Restoration} spell from it. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
+				"The wand regains {@dice 1d3} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
 			],
 			"attachedSpells": [
 				"lesser restoration"
