@@ -11,7 +11,7 @@
 			}
 		],
 		"dateAdded": 1718055353,
-		"dateLastModified": 1718151151
+		"dateLastModified": 1718934334
 	},
 	"item": [
 		{
@@ -111,8 +111,9 @@
 				"entries": [
 					"This armor is decorated with dragon heads, claws, wings, scales, or Draconic letters.",
 					"You have resistance to damage of the type dealt by the dragon's breath weapon while wearing this armor.",
-					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 1d8} damage of the type dealt by the dragon's breath weapon.",
-					"You have a {=bonusAc} bonus to AC while wearing this armor."
+					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 2d6} damage of the type dealt by the dragon's breath weapon.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"As an action, you can unleash a 15-foot cone of destructive energy from the armor. Each creature in that area must make a DC 14 Dexterity saving throw, taking {@dice 4d6} damage of the type dealt by the dragon's breath weapon on a failed save, or half as much damage on a successful one. Once this action is used, it can't be used again until the next dawn."
 				],
 				"bonusAc": "+1"
 			}
@@ -134,9 +135,10 @@
 				"entries": [
 					"This armor is decorated with dragon heads, claws, wings, scales, or Draconic letters.",
 					"You have immunity to damage of the type dealt by the dragon's breath weapon while wearing this armor.",
-					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 1d10} damage of the type dealt by the dragon's breath weapon.",
+					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 3d6} damage of the type dealt by the dragon's breath weapon.",
 					"You have a {=bonusAc} bonus to AC while wearing this armor.",
-					"You have resistance to nonmagical damage while wearing this armor."
+					"As an action, you can unleash a 15-foot cone of destructive energy from the armor. Each creature in that area must make a DC 16 Dexterity saving throw, taking {@dice 6d6} damage of the type dealt by the dragon's breath weapon on a failed save, or half as much damage on a successful one. Once this action is used, it can't be used again until the next dawn.",
+					"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons while wearing this armor."
 				],
 				"bonusAc": "+2"
 			}
@@ -158,10 +160,11 @@
 				"entries": [
 					"This armor is decorated with dragon heads, claws, wings, scales, or Draconic letters.",
 					"You have immunity to damage of the type dealt by the dragon's breath weapon while wearing this armor.",
-					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 2d6} damage of the type dealt by the dragon's breath weapon.",
+					"When a creature within 5 feet of you hits you with a melee attack, you can use your reaction to rebuke that creature, dealing it {@dice 4d6} damage of the type dealt by the dragon's breath weapon.",
 					"You have a {=bonusAc} bonus to AC while wearing this armor.",
-					"You have resistance to nonmagical damage while wearing this armor.",
-					"When you are reduced to 0 hit points, you can choose to have a blast of elemental energy surround you. You regain 1 hit point and are lifted to your feet. Each creature of your choice within 10 feet of you takes {@dice 2d6} damage of the type dealt by the dragon's breath weapon. This property of the armor can't be used again until you finish a {@quickref resting|PHB|2|0|long rest}."
+					"As an action, you can unleash a 30-foot cone of destructive energy from the armor. Each creature in that area must make a DC 18 Dexterity saving throw, taking {@dice 8d6} damage of the type dealt by the dragon's breath weapon on a failed save, or half as much damage on a successful one. Once this action is used, it can't be used again until the next dawn.",
+					"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons while wearing this armor.",
+					"When you are reduced to 0 hit points, you can choose to have a blast of elemental energy surround you. You regain 1 hit point and are lifted to your feet. Each creature of your choice within 20 feet of you takes {@dice 2d6} damage of the type dealt by the dragon's breath weapon. This property of the armor can't be used again until the next dawn."
 				],
 				"bonusAc": "+3"
 			}
