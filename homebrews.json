@@ -11,7 +11,7 @@
 			}
 		],
 		"dateAdded": 1718055353,
-		"dateLastModified": 1719854169
+		"dateLastModified": 1720060926
 	},
 	"item": [
 		{
@@ -335,6 +335,175 @@
 			"savingThrowForcedSpell": [
 				"constitution",
 				"dexterity"
+			]
+		},
+		{
+			"name": "Lorin \"Il Cieco\" Sottobosco",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"monk"
+				]
+			},
+			"source": "WateryHomebrews",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"unarmored defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 16,
+			"cha": 10,
+			"passive": 15,
+			"page": 436,
+			"cr": "4",
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"Common",
+				"Halfling",
+				"Gnomish",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"H",
+				"G",
+				"E"
+			],
+			"save": {
+				"str": "+2",
+				"dex": "+5"
+			},
+			"skill": {
+				"insight": "+5",
+				"acrobatics": "+5",
+				"athletics": "+2",
+				"perception": "+5"
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While Lorin is wearing no armor and not wielding a shield, his AC includes his Wisdom modifier."
+					]
+				},
+				{
+					"name": "Ki (4/short rest)",
+					"entries": [
+						"Lorin can spend his Ki points to fuel special abilities (save {@dc 13})."
+					]
+				},
+				{
+					"name": "Unarmored Movement",
+					"entries": [
+						"While Lorin is wearing no armor and not wielding a shield, his speed increases by 10."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Lorin makes 2 attacks with his Quarterstaff."
+					]
+				},
+				{
+					"name": "Flurry of Blows (Costs 1 Ki point)",
+					"entries": [
+						"Lorin makes three Unarmed Strikes. On each hit Lorin can impose on the target one of the following effects:",
+						"- it must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
+						"- it must make a Strength saving throw or be pushed 15 feet away from Lorin.",
+						"- it can't take reactions until the end of Lorin's next turn."
+					]
+				},
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"attachedItems": [
+				"quarterstaff|phb"
+			],
+			"damageTagsLegendary": [
+				"Y"
+			],
+			"savingThrowForcedLegendary": [
+				"intelligence",
+				"strength",
+				"wisdom"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"reaction": [
+				{
+					"name": "Deflect Missiles",
+					"entries": [
+						"Lorin reduces the damage from a ranged weapon attack by {@dice 1d10 + 7}. If the damage is reduced to 0 Lorin catches the missile and can spend 1 Ki point to make a ranged attack with a range of 20/60 using the weapon or piece of ammunition he just caught as part of the same reaction. Lorin makes this attack with proficiency and counts the weapon as a monk weapon."
+					]
+				}
+			],
+			"token": {
+				"name": "Soldier",
+				"source": "GGR"
+			},
+			"fluff": {
+				"entries": [
+					"Lorin is an old blind man whose daughter and son-in-law died in the war.",
+					"Now he works for the bandits to keep his grandchildren out of the streets but he isn't really loyal to the bandits."
+				]
+			},
+			"damageTags": [
+				"B"
 			]
 		}
 	]
