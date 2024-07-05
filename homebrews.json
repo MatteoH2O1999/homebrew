@@ -11,7 +11,7 @@
 			}
 		],
 		"dateAdded": 1718055353,
-		"dateLastModified": 1720060926
+		"dateLastModified": 1720139939
 	},
 	"item": [
 		{
@@ -35,6 +35,16 @@
 			"entries": [
 				"The boots are made from thick brown hide and appear to be suited for cold weather.",
 				"If the wearer of the boots passes a DC 16 Dexterity ({@skill Acrobatics}) check, they can jump either 15 ft. vertically, or 20 ft. horizontally, as a bonus action. However, if they fail the check, they fall {@condition prone}."
+			]
+		},
+		{
+			"name": "Blinkback Belt",
+			"source": "WateryHomebrews",
+			"page": 31,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This rugged, lether belt contains multiple loops and small sheathes. Any weapon with the thrown property that is thrown by the wearer is magically transported back to this belt directly after the attack."
 			]
 		},
 		{
