@@ -11,7 +11,7 @@
 			}
 		],
 		"dateAdded": 1718055353,
-		"dateLastModified": 1720139939
+		"dateLastModified": 1727402925
 	},
 	"item": [
 		{
@@ -514,6 +514,83 @@
 			},
 			"damageTags": [
 				"B"
+			]
+		},
+		{
+			"name": "Rifleman",
+			"size": [
+				"M",
+				"S",
+				"L"
+			],
+			"type": "humanoid",
+			"source": "WateryHomebrews",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 13,
+			"int": 11,
+			"wis": 12,
+			"cha": 10,
+			"passive": 13,
+			"page": 260,
+			"cr": "1",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Gnomish",
+				"Dwarvish",
+				"Undercommon"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"G",
+				"D",
+				"U"
+			],
+			"save": {
+				"str": "+2",
+				"con": "+3"
+			},
+			"skill": {
+				"athletics": "+2",
+				"perception": "+3"
+			},
+			"action": [
+				{
+					"name": "Rifle",
+					"entries": [
+						"{@atk rw} {@hit +8} to hit, range 210/450 ft., one target. {@h}14 ({@damage 2d10}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			],
+			"token": {
+				"name": "Soldier",
+				"source": "GGR"
+			},
+			"damageTags": [
+				"P"
 			]
 		}
 	]
